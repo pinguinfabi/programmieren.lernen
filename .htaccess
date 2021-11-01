@@ -10,4 +10,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !\.html$ [NC]
 # Hänge .html an den Dateinamen an. 
 # [L] -> Führe keine eventuell folgenden RewriteRules aus
-RewriteRule ^(.*)$ $1.html [L]
+RewriteRule ^(.*)$ $html.html [L]
