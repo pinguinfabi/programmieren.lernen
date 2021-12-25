@@ -6,9 +6,11 @@ loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const username = loginForm.username.value;
     const password = loginForm.password.value;
-
-    if (username === "likl" && password === "likl") {
-        window.open("../index.html","_self")
+    //Users
+    if (username === "admin" && password === "admin") {
+        window.open("../accounts/ahps9pm97n67dh64q57udrly3x93jcsevo0val4i","_self")
+    } else if (username === "likl" && password === "likl") {
+        window.open("../accounts/5snt6aekndmstpo6tqcrihkew6743dza95wofjut","_self")
     } else {
         loginErrorMsg.style.opacity = 1;
     }
