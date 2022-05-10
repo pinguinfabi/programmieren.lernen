@@ -4,5 +4,4 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
-LoadModule php5_module        modules/mod_php55.so
 AddType text/html .php
