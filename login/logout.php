@@ -17,6 +17,6 @@ setcookie(session_name(),
 session_destroy();
 
 // To login page
-header('Location: index.html');
+header('Location: index.php');
 
 ?>

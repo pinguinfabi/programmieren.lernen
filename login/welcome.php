@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
-    header("location: login.php");
+    header("Location: index.php");
     exit;
 }
 ?>
@@ -71,7 +71,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
 
         <li>
-          <a class="nav-link" href="index.html">Menu</a>
+          <a class="nav-link" href="../index.html">Menu</a>
         </li>
         
       </ul>
