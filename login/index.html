@@ -17,8 +17,6 @@ if (isset($_POST['login'])) {
     } else {
         if (password_verify($password, $result['PASSWORD'])) {
 
-              //Create sessions
-
               $_SESSION['user_id'] = $result['ID'];
               echo '<p class="success">Login successful!</p>';
             
